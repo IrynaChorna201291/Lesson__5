@@ -1,0 +1,201 @@
+/* &display=swap */
+@import "null.css";
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	min-height: 100%;
+overflow: hidden;
+}
+.container-figma {
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 112px 0px 0px 0px;
+}
+.header-figma {
+	margin: 0px 0px 92px 0px;
+}
+.title-figma {
+		font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+}
+.main-figma {
+}
+.content-figma {
+}
+.image-figma {
+	margin: 0px 0px 60px 0px;
+}
+.text-bold {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 24px 0px;
+}
+div.text{
+		margin: 0px 0px 48px 0px;
+}
+div.text p{
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+p.paragraph{
+	margin: 0px 0px 30px 0px;
+}
+.second {
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 48px 0px;
+}
+.text{
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 0px 24px 0px;
+}
+ul.list-figma li {
+padding: 0px 0px 0px 24px;
+}
+.footer-figma {
+}
+
+/* =============Статья============= */
+@font-face {
+	font-family: "Murecho";
+	src: url("../fonts/CyrillicChancellor.woff2") format("woff2"), url("../fonts/CyrillicChancellor.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"DomkratBold";
+	src: url("../fonts/DomkratBold.woff2") format("woff2"), url("../fonts/DomkratBold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+}
+.container {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.header {
+margin: 0px 0px 30px 0px;
+}
+.menu {
+	font-size: 0;
+}
+div.menu span{
+	background-color: #54bacc80;
+	display:inline-block;
+	padding: 18px;
+text-transform: uppercase;
+color: #9b2b09;
+text-shadow: 2px 1px 3px #000;
+font-size: 25px;
+height: 70px;
+}
+span.decoration{
+	text-decoration: underline;
+}
+.sublist{
+	color: rgb(4, 51, 43);
+	line-height: 1.3;
+}
+span.colorred{
+	color: red;
+}
+.menu-sublist {
+	color:cadetblue;
+		font-style: italic;
+		text-transform: capitalize;
+
+}
+h1.titlepage{
+	font-family: "DomkratBold";
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+}
+h2{
+	text-decoration: underline;
+	font-size: 25px;
+	margin: 0px 0px 15px 0px;
+}
+h4{
+	text-decoration: underline;
+	font-size: 18px;
+	font-style: italic;
+	color: rgba(0, 0, 0, 0.438);
+	margin: 0px 0px 8px 0px;
+}
+.main {
+}
+.content {
+}
+.block-text{
+	font-size: 20px;
+	line-height: 1.1
+}
+p.block-text{
+	font-family: "Lato";
+		margin: 0px 0px 10px 0px;;
+
+}
+.block-1 {
+	max-width: 1000px;
+	margin: 0 0 20px auto;
+	
+}
+.block-text2 {
+	font-family:"Murecho";
+	font-size: 30px;
+	line-height: 1.2;
+	margin: 0px 0px 24px 0px;
+}
+.block-2 {
+}
+.foto {
+	max-width: 600px;
+	margin: 0px 0px 10px 0px;
+}
+.name {
+	display: block;
+	font-style: italic;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+}
+p.block-text2.width{
+	width: 800px;
+	max-height: 600px;
+}
+.footer {
+}
+
